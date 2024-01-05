@@ -6,6 +6,8 @@
 // Check the log:
 console.log("here");
 
+// ----------------------------------------------------------
+
 // 1. if and else statements
 
 // if () {
@@ -57,6 +59,9 @@ if (test === "A") {
 const sentence = "First sentence \n Second sentence.";
 console.log(sentence);
 
+// ----------------------------------------------------------
+
+
 // 2. Switch case: traffic lights
 
 let color = "green";
@@ -98,6 +103,9 @@ switch (grade){
     default:
         console.log("No grade given.")
 }
+
+// ----------------------------------------------------------
+
 
 // 3. Scope
 
