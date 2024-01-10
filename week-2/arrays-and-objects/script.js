@@ -251,5 +251,3 @@ const modernLp = lp.filter(function (lp){
 });
 
 console.log(modernLp);
-
-
