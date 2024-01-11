@@ -63,6 +63,27 @@ const dogs = [
     }
 ];
 
-for (let i = 0; i < list.length; i++){
-    list
+function getName(list) {
+    for (let i = 0; i < list.length; i++) {
+        console.log(list[i].name);
+    }
 }
+
+getName(dogs);
+
+const horses = [
+    {
+        name: "Agility",
+        breed: "Norsk Varmblods"
+    },
+    {
+        name: "Sano",
+        breed: "Lipizzaner"
+    },
+    {
+        name: "Max",
+        breed: "Frieser"
+    }
+];
+
+getName(horses);
