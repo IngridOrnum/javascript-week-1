@@ -19,29 +19,29 @@
 //
 // // TASK 1. Select the h1 and change heading.
 //
-// // 1. First select the h1.
-//
-// let heading = document.querySelector("h1");
-// let button = document.querySelector(".button");
-// let buttonColours = document.querySelector(".colours");
-// let body = document.querySelector("body");
-//
-// function changeH1() {
-//     heading.innerHTML = "Det er en god dag!";
-// }
-//
-// // Connect it to the button
-//
-// button.onClick = changeH1;
-//
-// // 2. Change the body bg color to blue.
-//
-// function changeColor(color) {
-//     body.style.backgroundColor = "blue";
-//     heading.style.color = "black";
-// }
-//
-// buttonColours.onClick = changeColor;
+// 1. First select the h1.
+
+let heading = document.querySelector("h1");
+let button = document.querySelector("button");
+let buttonColors = document.querySelector(".colors");
+let body = document.querySelector("body");
+
+function changeHeading() {
+    heading.innerHTML = "Det er en god dag!";
+}
+
+// Connect it to the button and run the function
+
+button.onclick = changeHeading;
+
+// 2. Change the body bg color to blue.
+
+function changeColor() {
+    body.style.backgroundColor = "blue";
+    heading.style.color = "black";
+}
+
+buttonColors.onclick = changeColor;
 
 // ----------------------------------------------------------------------------
 
@@ -66,7 +66,3 @@ console.log("Is the cat friendly? ", pet.isFriendly);
 console.log(catBtn);
 
 catBtn.onclick = pet.mewMew;
-
-
-
-
