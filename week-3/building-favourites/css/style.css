@@ -33,18 +33,20 @@ h1 {
     gap: 1rem;
     display: flex;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .product {
     border-radius: 1rem;
-    border: 1px solid grey;
     padding: .5rem;
     background-color: #cdaffc;
 }
 
-/*.heart {*/
-/*    display: inline-flex;*/
-/*}*/
+.heart {
+    display: inline-flex;
+}
 
 .active-heart {
     fill: red;
@@ -55,5 +57,4 @@ h1 {
     border-radius: 1rem;
     width: 100%;
     object-fit: fill;
-
 }
