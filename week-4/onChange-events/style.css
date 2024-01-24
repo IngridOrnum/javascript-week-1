@@ -32,3 +32,8 @@ select {
     border-radius: 8px;
     border: 2px solid #cdaffc;
 }
+
+.color-selector {
+    position: absolute;
+    margin-left: 1rem;
+}

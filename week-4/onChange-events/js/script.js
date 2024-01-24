@@ -32,10 +32,9 @@ console.log(colorContainer);
 
 html = "";
 
-colorSelector.onchange = function (seeColor) {
-    colorContainer.innerHTML = "";
-    console.log("I am changed");
-    var newColor =
-}
+function color(value){
+    document.body.style.backgroundColor = value;
+};
+
 
 
