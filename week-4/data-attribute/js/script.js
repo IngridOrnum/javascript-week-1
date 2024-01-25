@@ -42,6 +42,10 @@ postBtn.addEventListener("click", function(){
 // };
 
 
+const imgBtn = document.querySelector(".mountain-img");
 
+imgBtn.addEventListener("click", function(){
+    window.open(imgBtn.dataset.fullsize);
+});
 
 
