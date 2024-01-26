@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --primary: #f5f3bb;
+    --secondary: #86ba90;
+    --buff: #dfa06e;
+    --bistre: #412722;
+    --poppy: #df2935;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    width: 100vw;
+}
+
+main {
+    /*flex-grow: 1;*/
+}
+
+
+.bg-img {
+    background-image: url("images/earth.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    background-color: #86ba90;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: auto;
+}
+
+.hero-content {
+    padding: .5rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.age-btn {
+    width: 100px;
+    padding: 1rem;
+    background-color: cornflowerblue;
+}
+
+
+/*.hero-img {*/
+/*    width: auto;*/
+/*    height: inherit;*/
+/*}*/
+
+
+
+
+
