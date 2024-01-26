@@ -1,6 +1,6 @@
 
 const ageInput = document.querySelector("#age");
-const enterBtn = document.querySelector(".enter-btn");
+const enterBtn = document.querySelector("#enter-btn");
 
 enterBtn.addEventListener("click", function (){
     const age = ageInput.value;
@@ -8,7 +8,7 @@ enterBtn.addEventListener("click", function (){
     if (isAgeOk) {
         document.location.href = "welcome.html";
     } else {
-        alert("You cannot enter");
+        alert("You are not old enough to process the lies we all have been told.");
     }
 });
 
