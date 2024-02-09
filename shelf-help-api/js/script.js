@@ -22,9 +22,23 @@ fetch("http://api.noroff.dev/api/v1/books")
 // document.createElement()
 
 function displayBook(book) {
-    const bookDiv = document.createElement("div");
-    const bookTitlePara = document.createElement("p");
-    bookTitlePara.innerHTML = book.title;
-    bookDiv.appendChild(bookTitlePara);
-    bookListDiv.appendChild(bookDiv);
+    bookListDiv.innerHTML += `
+    <div>
+    <img src="${book.image}">
+    <h2>
+    ${book.title}
+</h2>
+<p>${book.price}</p>
+</div>
+    `
+}
+
+function filterByAuthor(authorToFilterBy){
+    let filteredResults = []
+    for (const book of bookData) {
+        if(book.author === authorToFilterBy){
+            filteredResults.push(book)
+        }
+    }
+
 }
